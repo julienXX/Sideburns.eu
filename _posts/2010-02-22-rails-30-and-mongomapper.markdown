@@ -14,7 +14,7 @@ Create config/initializers/mongo.rb file:
 Append Gemfile:
 <script src="http://gist.github.com/314473.js?file=Gemfile"></script>
 
-Run "bundle install" and that's all! You can now play with MongoMapper and Rails 3.
+Run "bundle install" start your Mongo server and that's all! You can now play with MongoMapper and Rails 3.
 
 Example model app/model/paper.rb:
 <script src="http://gist.github.com/314473.js?file=app_models_paper.rb"></script>
