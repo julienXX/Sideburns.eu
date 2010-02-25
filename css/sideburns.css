@@ -9,6 +9,10 @@ background-color: #333334;
   width:700px;
 }
 
+img {
+	border-style: none;
+}
+
 .nav {
 	margin:0 auto;
 	width:700px;
@@ -93,16 +97,6 @@ z-index: 9;
 	right: 20px;
 }
 
-.archive a {
-	font-size: 14px;
-  	color: gray;
-}
-
-.archive a:hover {
-	color: #f92672;
-	text-decoration: none;
-}
-
 .date {
   	font-style: italic;
   	font-size: 11px;
@@ -164,11 +158,6 @@ body > header > h1 {
 .post p {
   	margin: 10px 0;
   	font-size: 15px;
-}
-.post img {
-	display: block;
-	margin-left: auto;
-    margin-right: auto;
 }
 body > header {
 	display: block;
