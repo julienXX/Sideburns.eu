@@ -4,7 +4,7 @@
  <title>Sideburns.eu</title>
  <link href="http://www.sideburns.eu/atom.xml" rel="self"/>
  <link href="http://www.sideburns.eu/"/>
- <updated>2927162522010456falseCET</updated>
+ <updated>302172522010456falseCET</updated>
  <id>http://www.sideburns.eu/</id>
  <author>
    <name>Julien Blanchard</name>
@@ -13,22 +13,10 @@
  
  
  <entry>
-   <title>Rails 3.0 and MongoMapper</title>
-   <link href="http://www.sideburns.eu/2010/02/22/rails-30-and-mongomapper.html"/>
-   <updated>Liquid error: undefined method `xmlschema' for "22/02/2010":String</updated>
-   <id>http://www.sideburns.eu/2010/02/22/rails-30-and-mongomapper</id>
-   <content type="html"><p>config/initializers/mongo.rb: <script src='http://gist.github.com/314473.js?file=config_initializers_mongo.rb' /></p>
-
-<p>Gemfile: <script src='http://gist.github.com/314473.js?file=Gemfile' /></p>
-
-<p>Example model app/model/paper.rb: <script src='http://gist.github.com/314473.js?file=app_models_paper.rb' /></p></content>
- </entry>
- 
- <entry>
    <title>How I pimped my TextMate</title>
-   <link href="http://www.sideburns.eu/2010/02/05/how-I-pimped-my-textmate.html"/>
-   <updated>Liquid error: undefined method `xmlschema' for "05/02/2010":String</updated>
-   <id>http://www.sideburns.eu/2010/02/05/how-I-pimped-my-textmate</id>
+   <link href="http://www.sideburns.eu/2010/02/25/how-I-pimped-my-textmate.html"/>
+   <updated>Liquid error: undefined method `xmlschema' for "25/02/2010":String</updated>
+   <id>http://www.sideburns.eu/2010/02/25/how-I-pimped-my-textmate</id>
    <content type="html"><p>TextMate is my editor of choice but it&#8217;s not very sexy at first.</p>
 
 <p><img alt='Vanilla TextMate' src='/images/TMvanilla.png' /></p>
@@ -45,7 +33,23 @@
 
 <p>For the aesthetics pimping, I use is the <a href='http://www.monokai.nl/blog/2006/07/15/textmate-color-theme/' title='Monokai'>Monokai</a> color scheme, <a href='http://github.com/kneath/github_textmate_preview' title='Github Web Preview'>Github Web Preview</a> and the green moleskine <a href='http://jason-evers.com/code/code-like-i-do'>icon and splash screen</a>.</p>
 
-<p><img alt='TextMate Splash' src='/images/TMblank.png' /></p></content>
+<p><img alt='TextMate Splash' src='/images/TMblank.png' /></p>
+
+<p>Now you have the coolest editor that even the VI/Emacs cool kids will envy!</p>
+
+<p><img alt='Pimp' src='/images/pimp.jpg' /></p></content>
+ </entry>
+ 
+ <entry>
+   <title>Rails 3.0 and MongoMapper</title>
+   <link href="http://www.sideburns.eu/2010/02/22/rails-30-and-mongomapper.html"/>
+   <updated>Liquid error: undefined method `xmlschema' for "22/02/2010":String</updated>
+   <id>http://www.sideburns.eu/2010/02/22/rails-30-and-mongomapper</id>
+   <content type="html"><p>config/initializers/mongo.rb: <script src='http://gist.github.com/314473.js?file=config_initializers_mongo.rb' /></p>
+
+<p>Gemfile: <script src='http://gist.github.com/314473.js?file=Gemfile' /></p>
+
+<p>Example model app/model/paper.rb: <script src='http://gist.github.com/314473.js?file=app_models_paper.rb' /></p></content>
  </entry>
  
  
