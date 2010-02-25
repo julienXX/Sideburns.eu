@@ -22,3 +22,7 @@ Other plugins worth trying are [XMLMate](http://ditchnet.org/xmlmate/) and [TMCo
 For the aesthetics pimping, I use is the [Monokai](http://www.monokai.nl/blog/2006/07/15/textmate-color-theme/ "Monokai") color scheme, [Github Web Preview](http://github.com/kneath/github_textmate_preview "Github Web Preview") and the green moleskine [icon and splash screen](http://jason-evers.com/code/code-like-i-do).
 
 ![TextMate Splash](/images/TMblank.png "")
+
+Now you have the coolest editor that even the VI/Emacs cool kids will envy!
+
+![Pimp](/images/pimp.jpg)
