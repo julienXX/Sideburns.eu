@@ -93,6 +93,16 @@ z-index: 9;
 	right: 20px;
 }
 
+.archive a {
+	font-size: 14px;
+  	color: gray;
+}
+
+.archive a:hover {
+	color: #f92672;
+	text-decoration: none;
+}
+
 .date {
   	font-style: italic;
   	font-size: 11px;
