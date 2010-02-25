@@ -4,7 +4,7 @@
  <title>Sideburns.eu</title>
  <link href="http://www.sideburns.eu/atom.xml" rel="self"/>
  <link href="http://www.sideburns.eu/"/>
- <updated>2632182522010456falseCET</updated>
+ <updated>1848182522010456falseCET</updated>
  <id>http://www.sideburns.eu/</id>
  <author>
    <name>Julien Blanchard</name>
@@ -53,15 +53,15 @@
    <id>http://www.sideburns.eu/2010/02/22/rails-30-and-mongomapper</id>
    <content type="html"><p>Here is some notes regarding MongoMapper usage in a Rails 3 application.</p>
 
-<p>First install Rails 3: <script src='http://gist.github.com/314473.js?file=Rails+installation' /></p>
+<p>First install Rails 3: <script src='http://gist.github.com/314473.js?file=Rails+installation'> </script></p>
 
-<p>Create config/initializers/mongo.rb file: <script src='http://gist.github.com/314473.js?file=config_initializers_mongo.rb' /></p>
+<p>Create config/initializers/mongo.rb file: <script src='http://gist.github.com/314473.js?file=config_initializers_mongo.rb'> </script></p>
 
-<p>Append Gemfile: <script src='http://gist.github.com/314473.js?file=Gemfile' /></p>
+<p>Append Gemfile: <script src='http://gist.github.com/314473.js?file=Gemfile'> </script></p>
 
 <p>Run &#8220;bundle install&#8221; start your Mongo server and that&#8217;s all! You can now play with MongoMapper and Rails 3.</p>
 
-<p>Example model app/model/paper.rb: <script src='http://gist.github.com/314473.js?file=app_models_paper.rb' /></p></content>
+<p>Example model app/model/paper.rb: <script src='http://gist.github.com/314473.js?file=app_models_paper.rb'> </script></p></content>
  </entry>
  
  
