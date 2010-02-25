@@ -1,0 +1,9 @@
+---
+layout: default
+title: Sideburns.eu
+---
+ 
+{% for post in site.posts limit:3 %}
+<p><h1><a href="{{ post.url}}">{{ post.title }}</a></h1>
+<span class="date">{{ post.date }}</span></p>
+{% endfor %}	

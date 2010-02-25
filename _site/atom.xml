@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Sideburns.eu</title>
+ <link href="http://www.sideburns.eu/atom.xml" rel="self"/>
+ <link href="http://www.sideburns.eu/"/>
+ <updated>2927162522010456falseCET</updated>
+ <id>http://www.sideburns.eu/</id>
+ <author>
+   <name>Julien Blanchard</name>
+   <email>julien@sideburns.eu</email>
+ </author>
+ 
+ 
+ <entry>
+   <title>Rails 3.0 and MongoMapper</title>
+   <link href="http://www.sideburns.eu/2010/02/22/rails-30-and-mongomapper.html"/>
+   <updated>Liquid error: undefined method `xmlschema' for "22/02/2010":String</updated>
+   <id>http://www.sideburns.eu/2010/02/22/rails-30-and-mongomapper</id>
+   <content type="html"><p>config/initializers/mongo.rb: <script src='http://gist.github.com/314473.js?file=config_initializers_mongo.rb' /></p>
+
+<p>Gemfile: <script src='http://gist.github.com/314473.js?file=Gemfile' /></p>
+
+<p>Example model app/model/paper.rb: <script src='http://gist.github.com/314473.js?file=app_models_paper.rb' /></p></content>
+ </entry>
+ 
+ <entry>
+   <title>How I pimped my TextMate</title>
+   <link href="http://www.sideburns.eu/2010/02/05/how-I-pimped-my-textmate.html"/>
+   <updated>Liquid error: undefined method `xmlschema' for "05/02/2010":String</updated>
+   <id>http://www.sideburns.eu/2010/02/05/how-I-pimped-my-textmate</id>
+   <content type="html"><p>TextMate is my editor of choice but it&#8217;s not very sexy at first.</p>
+
+<p><img alt='Vanilla TextMate' src='/images/TMvanilla.png' /></p>
+
+<p>Here is how you can make it funkier.</p>
+
+<p><img alt='Pimped TextMate' src='/images/TMpimped.png' /></p>
+
+<p>The <a href='http://ciaranwal.sh/projectplus' title='Project Plus'>ProjectPlus</a> plugin gives you SCM status badges (Git, SVN, Mercurial, Bazaar &amp; Svk), it swaps the project drawer to a panel for a less tigerish look, it can display Finder colour labels. It can also save project-tree state and sort files and folders.</p>
+
+<p>The <a href='http://julianeberius.github.com/Textmate-Minimap/' title='Minimap'>Minimap</a> plugin brings a drawer with a zoomed-out view of your code a la <a href='http://www.sublimetext.com/' title='Sublime Text'>Sublime Text</a>.</p>
+
+<p>Other plugins worth trying are <a href='http://ditchnet.org/xmlmate/'>XMLMate</a> and <a href='http://www.cocoabits.com/TmCodeBrowser/'>TMCodeBrowser</a> for easy XML and code browsing.</p>
+
+<p>For the aesthetics pimping, I use is the <a href='http://www.monokai.nl/blog/2006/07/15/textmate-color-theme/' title='Monokai'>Monokai</a> color scheme, <a href='http://github.com/kneath/github_textmate_preview' title='Github Web Preview'>Github Web Preview</a> and the green moleskine <a href='http://jason-evers.com/code/code-like-i-do'>icon and splash screen</a>.</p>
+
+<p><img alt='TextMate Splash' src='/images/TMblank.png' /></p></content>
+ </entry>
+ 
+ 
+</feed>

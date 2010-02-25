@@ -1,0 +1,189 @@
+body {
+font-size:12px; 
+font-family:"Helvetica Neue", Arial, Helvetica, Geneva, sans-serif; 
+background-color: #333334;
+}
+
+#container {
+  margin:0 auto;
+  width:700px;
+}
+
+.nav {
+	margin:0 auto;
+	width:700px;
+	text-align: right;
+	color: #f92672;
+	font: bold 21px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	
+}
+
+.nav a {
+	text-decoration: none;
+}
+
+.footer {
+  	margin:0 auto;
+  	width:700px;
+  	padding-top: 60px;
+  	text-align: center;
+	color: silver;
+}
+
+#logo { 
+display: block; 
+height: 516px; 
+width: 554px;
+	margin: 0 auto 50px;
+}
+
+#rss {
+position: fixed;
+bottom: 58px;
+left: 100px;
+border: 0;
+margin: 0;
+z-index: 9;
+	width: 90px;
+	height: 90px;
+}
+
+#click { position: fixed; bottom: 20px; right: 73px; }
+
+.stack { position: fixed; bottom: 58px; right: 100px; }  
+.stack > img { position: relative; cursor: pointer; padding-top: 35px; z-index: 2; }  
+.stack ul { list-style: none; position: absolute; top: 5px; right: 65px; cursor: pointer; z-index: 1; }
+.stack ul li { position: absolute; }  
+.stack ul li img { border: 0; width: 50px; height: 50px; }  
+.stack ul li span { display: none; }  
+.stack .openStack li span {   
+    font-family: "Lucida Grande", Lucida, Verdana, sans-serif;  
+    display:block;  
+    height: 14px;  
+    position:absolute;  
+    top: 17px;  
+    right:60px;  
+    line-height: 14px;  
+    border: 0;  
+    background-color: gray;  
+    padding: 3px 10px;  
+    border-radius: 10px;  
+    -webkit-border-radius: 10px;  
+    -moz-border-radius: 10px;  
+    color: #fcfcfc;  
+    text-align: center;  
+    text-shadow: #000 1px 1px 1px;  
+    opacity: .85;  
+    filter: alpha(opacity = 85);  
+}  
+
+.stack a {
+	color: #fcfcfc;
+	text-decoration: none;
+}
+  
+/* IE Fixes */  
+.stack { _position: absolute; }  
+.stack ul { _z-index:-1; _top:-15px; }  
+.stack ul li { *right:5px; }  
+
+.archive {
+  	font-size: 14px;
+  	color: gray;
+	right: 20px;
+}
+
+.date {
+  	font-style: italic;
+  	font-size: 11px;
+  	float: right;
+  	line-height: 43px;
+  	color: gray;
+	right: 20px;
+}
+a {
+  	color: #f92672;
+	text-decoration: none;
+}
+h1 {
+	color: #a7e02e;
+    font-size: 51px;
+}
+
+h1 a {
+  	color: #a7e02e;
+  	text-decoration: none;
+}
+
+h1 a:hover {
+  	color: #f92672;
+  	text-decoration: none;
+}
+
+h3 a {
+	text-decoration: none;
+}
+
+a:hover {
+  	text-decoration: underline;
+}
+body > header > h1 {
+	border-left: 30px solid black;
+	padding-left: 30px;
+  	font-size: 201px;
+  	margin: 100px 0 15px 0;
+  	font-weight: normal;
+	color: #a7e02e;
+}
+.post header {
+	margin-bottom: 10px;
+}
+.post .body p:first-child {
+	margin-top: 0;
+}
+.post .body p:last-child {
+	margin-bottom: 0;
+}
+.post {
+	margin-bottom: 30px;
+	color: silver;
+}
+.post:last-child {
+  	margin-bottom: 10px;
+}
+.post p {
+  	margin: 10px 0;
+  	font-size: 15px;
+}
+.post img {
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+}
+body > header {
+	display: block;
+	padding-top: 30px;
+	line-height: 180px;
+	margin-bottom: 20px;
+}
+h1, h2, h3, h4 {
+  	display: inline;
+  	margin: 0;
+  	font-weight: 600;
+  	color: #a7e02e;
+}
+ul, li {
+  	list-style-type: none;
+	position: relative;
+}
+code {
+  	font-family: 'Anonymous Pro', 'Bitstream Vera Sans', 'Monaco', Courier, mono;
+	margin-left: 20px;
+	color: #dfdb74;
+}
+pre {
+  	padding: 20px;
+}
+blockquote {
+  	font-style: italic;
+}

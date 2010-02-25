@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="/css/sideburns.css">
+    <link rel="alternate" type="application/atom+xml" title="<%= title %> - feed" href="/index.xml" />
+    <title>Playing with Rails 3.0 and MongoDB part1</title>
+  </head>
+  
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+  <script src="/js/stacks.js" type="text/javascript"></script>
+
+  <script type="text/javascript">
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+  </script>
+  <script type="text/javascript">
+  try {
+  var pageTracker = _gat._getTracker("UA-9345972-2");
+  pageTracker._trackPageview();
+  } catch(err) {}</script>
+  
+  <body>
+    <!-- <img id="ribon" src="/images/coming.png" alt="Coming soon !" /> -->
+    <a href="/atom.xml"><img id="rss" src="/images/rss.gif" alt="subscribe to RSS" /></a>
+    <div class="nav">
+      <p>
+        <a href='/about'>About</a>
+      |
+        <a href='/archive.html'>Archives</a>
+      </p>
+    </div>
+    
+    <div id="container">
+      <a href="/"><img id="logo" src="/images/sideburns.png"></img></a>
+      
+      <img id="click" src="/images/click2.png" alt="click here">
+
+      <div class="stack">
+        	<img src="/images/stack.png" alt="stack">
+        	<ul id="stack">  
+            	<li><a href="http://delicious.com/julienXX"><span>Del.icio.us</span><img src="/images/delicious.png" alt="Del.icio.us"></a></li>  
+            	<li><a href="http://www.flickr.com/photos/julienxx"><span>Flickr</span><img src="/images/flickr.png" alt="Flickr"></a></li>  
+            	<li><a href="http://www.linkedin.com/in/blanchardjulien"><span>LinkedIn</span><img src="/images/linkedin.png" alt="LinkedIn"></a></li>  
+      	      <li><a href="http://www.workingwithrails.com/person/17314-julien-blanchard"><span>WorkingWithRails</span><img src="/images/wwrails.png" alt="Working with Rails"></a></li>
+            	<li><a href="http://github.com/julienXX"><span>GitHub</span><img src="/images/github.png" alt="GitHub"></a></li> 
+    	      	<li><a href="http://www.twitter.com/julienXX"><span>Twitter</span><img src="/images/twitter.png" alt="Twitter"></a></li>
+      	      <li><a href="mailto:julien@sideburns.eu"><span>Mail</span><img src="/images/gmail.png" alt="Mail"></a></li>
+        	</ul>  
+      </div>
+      
+      <section>
+        <div class="post">	
+<h1>Playing with Rails 3.0 and MongoDB part1</h1>
+<p>Rails 3.0.beta is here, let&#8217;s play with it! My first Rails 3 project is an Instapaper clone backed by MongoDB. In this first part, I&#8217;ll go through the setup of the app.</p>
+
+<p>Note that my Ruby stack is based on <a href='http://rvm.beginrescueend.com/' title='RVM'>RVM</a> and Ruby 1.9.1.</p>
+
+<p>First we need to install Rails 3.0.beta:</p>
+
+<p><code>$ gem install i18n tzinfo builder memcache-client rack rack-test rack-mount erubis mail text-format thor bundler</code></p>
+
+<p><code>$ gem install rails --pre</code></p>
+
+<p>At this point I tried to create a new project and got this error:</p>
+
+<p><code>/Library/Ruby/Site/1.8/rubygems.rb:384:in &#39;bin_path&#39;: can&#39;t find executable rails for rails-3.0.0.beta (Gem::Exception)
+from /usr/bin/rails:19</code></p>
+
+<p>To fix it:</p>
+
+<p><code>$ gem install railties --pre</code></p>
+
+<p>Next step is installing <a href='http://mongoid.org' title='Mongoid'>Mongoid</a> a nice API to work with MongoDB. We need to use the 2.0.0.pre version which has Rails 3.0 compatibility:</p>
+
+<p><code>$ gem install jeweler</code></p>
+
+<p><code>$ git clone git://github.com/durran/mongoid.git</code></p>
+
+<p><code>$ cd mongoid</code></p>
+
+<p><code>$ git co prerelease</code></p>
+
+<p><code>$ rake install</code></p>
+
+<p>Now we can:</p>
+
+<p><code>$ rails app &amp;&amp; cd app</code></p>
+
+<p>I found some nice MongoDB generators here: <a href='http://github.com/kristianmandrup/mongo_rails3_gen' title='Rails 3 MongoDB generators'>http://github.com/kristianmandrup/mongo_rails3_gen</a></p>
+
+<p>To use them, in the app folder:</p>
+
+<p><code>$ cd lib</code></p>
+
+<p><code>$ git clone git://github.com/kristianmandrup/mongo_rails3_gen.git</code></p>
+
+<p><code>$ cp -r mongo_rails3_gen/lib/* .</code></p>
+
+<p>In the Gemfile we need to add:</p>
+
+<p><code>gem &quot;mongoid&quot;, &quot;2.0.0.pre&quot;</code></p>
+
+<blockquote>
+<p>Note: it&#8217;s not possible to use the mongo_ext gem <a href='http://www.mongodb.org/display/DOCS/Rails+3+-+Getting+Started' title='mongo_ext gem &amp; Rails 3'>yet</a> so just ignore the warning regarding the driver performances.</p>
+</blockquote>
+
+<p>The generators are now available:</p>
+
+<p><code>$ rails g mongoid:setup</code></p>
+
+<p>This command creates two files config/database.mongo.yml and config/initializers/mongoid.rb. Edit the config/database.mongo.yml to reflect your MongoDB configuration.</p>
+
+<p>To generate our models:</p>
+
+<p><code>$rails g mongoid:model</code></p>
+
+<p>That&#8217;s it for the first part, stay tuned!</p>
+</div> 
+      </section>
+    </div>
+    
+    <div class="footer">
+      powered by <a href="http://cloudhead.io/toto">toto</a>
+    </div>
+  </body>
+    
+
+  </body>
+</html>
+
