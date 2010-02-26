@@ -11,8 +11,11 @@ First install Rails 3:
 Create config/initializers/mongo.rb file:
 <script src="http://gist.github.com/314473.js?file=config_initializers_mongo.rb"> </script>
 
-Append Gemfile:
+Append Gemfile, for the edge version:
 <script src="http://gist.github.com/314473.js?file=Gemfile"> </script>
+
+UPDATE: For a more stable version (as Jacques Crocker mentioned in the comments):
+<script src="http://gist.github.com/314473.js?file=MongoMapper_Rails3"> </script>
 
 Run "bundle install" start your Mongo server and that's all! You can now play with MongoMapper and Rails 3.
 
