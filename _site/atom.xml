@@ -4,7 +4,7 @@
  <title>Sideburns.eu</title>
  <link href="http://www.sideburns.eu/atom.xml" rel="self"/>
  <link href="http://www.sideburns.eu/"/>
- <updated>1356182522010456falseCET</updated>
+ <updated>2258102622010557falseCET</updated>
  <id>http://www.sideburns.eu/</id>
  <author>
    <name>Julien Blanchard</name>
@@ -57,7 +57,9 @@
 
 <p>Create config/initializers/mongo.rb file: <script src='http://gist.github.com/314473.js?file=config_initializers_mongo.rb'> </script></p>
 
-<p>Append Gemfile: <script src='http://gist.github.com/314473.js?file=Gemfile'> </script></p>
+<p>Append Gemfile, for the edge version: <script src='http://gist.github.com/314473.js?file=Gemfile'> </script></p>
+
+<p>UPDATE: For a more stable version (as Jacques Crocker mentioned in the comments): <script src='http://gist.github.com/314473.js?file=MongoMapper_Rails3'> </script></p>
 
 <p>Run &#8220;bundle install&#8221; start your Mongo server and that&#8217;s all! You can now play with MongoMapper and Rails 3.</p>
 
