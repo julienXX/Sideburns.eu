@@ -31,9 +31,11 @@ Now you have the coolest editor that even the VI/Emacs cool kids will envy!
 
 ![Pimp](/images/pimp.jpg)
 
-Inspired by al3x [blog post](http://al3x.net/2008/12/03/how-i-use-textmate.html).
-
-UPDATE (29/03/2010)  
+Inspired by al3x [blog post](http://al3x.net/2008/12/03/how-i-use-textmate.html).  
+  
+  
+* * *
+**UPDATE (29/03/2010)**  
 [AckMate](http://github.com/protocool/AckMate "AckMate") is a new Ack plugin for TextMate for very fast project search.
 
 [RSense](http://github.com/eandrejko/RSense.tmbundle "RSense") brings code-completion.
