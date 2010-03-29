@@ -41,4 +41,5 @@ Inspired by al3x [blog post](http://al3x.net/2008/12/03/how-i-use-textmate.html)
 [RSense](http://github.com/eandrejko/RSense.tmbundle "RSense") brings code-completion.
 
 Finally [Subtle Gradient](http://trippledoubleyou.subtlegradient.com/stuff/subtleGradient%20Leopard%20TextMate%20Theme%20Dark%202.dmg "Subtle Gradient") is an awesome TM interface mod.  
-![Subtle Gradient](http://trippledoubleyou.subtlegradient.com/stuff/subtleGradient%20Leopard%20TextMate%20Theme%20Dark%202.png "")
+
+![Subtle Gradient](/images/TMsubtle.png "")
