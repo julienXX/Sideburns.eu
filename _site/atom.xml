@@ -4,7 +4,7 @@
  <title>Sideburns.eu</title>
  <link href="http://www.sideburns.eu/atom.xml" rel="self"/>
  <link href="http://www.sideburns.eu/"/>
- <updated>232217532010564falseCET</updated>
+ <updated>2010-03-29 11:41:24 +0200</updated>
  <id>http://www.sideburns.eu/</id>
  <author>
    <name>Julien Blanchard</name>
@@ -43,7 +43,13 @@
 
 <p><img alt='Pimp' src='/images/pimp.jpg' /></p>
 
-<p>Inspired by al3x <a href='http://al3x.net/2008/12/03/how-i-use-textmate.html'>blog post</a>.</p></content>
+<p>Inspired by al3x <a href='http://al3x.net/2008/12/03/how-i-use-textmate.html'>blog post</a>.</p>
+
+<p>UPDATE (29/03/2010)<br /><a href='http://github.com/protocool/AckMate' title='AckMate'>AckMate</a> is a new Ack plugin for TextMate for very fast project search.</p>
+
+<p><a href='http://github.com/eandrejko/RSense.tmbundle' title='RSense'>RSense</a> brings code-completion.</p>
+
+<p>Finally <a href='http://trippledoubleyou.subtlegradient.com/stuff/subtleGradient%20Leopard%20TextMate%20Theme%20Dark%202.dmg' title='Subtle Gradient'>Subtle Gradient</a> is an awesome TM interface mod.<br /><img alt='Subtle Gradient' src='http://trippledoubleyou.subtlegradient.com/stuff/subtleGradient%20Leopard%20TextMate%20Theme%20Dark%202.png' /></p></content>
  </entry>
  
  <entry>
